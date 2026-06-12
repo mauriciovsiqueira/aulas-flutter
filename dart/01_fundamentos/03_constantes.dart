@@ -22,4 +22,12 @@ main() {
   final area = PI * raio * raio;
 
   print("O valor da area é: " + area.toString());
+
+  final lista = const [1, 2, 3, 4, 5];
+  // lista.add(6); // Isso vai gerar um erro, pois a lista é constante, só pode referenciar a mesma lista, mas não pode modificar o conteúdo da lista.
+  print(lista);
+
+  const lista2 = [1, 2, 3, 4, 5];
+  // lista2.add(6); // Isso também vai gerar um erro, pois a lista é constante
+  print(lista2);
 }
